@@ -7,21 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD13B16F1BEF192A0003FAAB /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD13B16E1BEF192A0003FAAB /* ViewController2.swift */; };
 		CD49662B1BD94FDE00495993 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49662A1BD94FDE00495993 /* AppDelegate.swift */; };
 		CD49662D1BD94FDE00495993 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD49662C1BD94FDE00495993 /* ViewController.swift */; };
 		CD4966301BD94FDE00495993 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD49662E1BD94FDE00495993 /* Main.storyboard */; };
 		CD4966321BD94FDE00495993 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD4966311BD94FDE00495993 /* Assets.xcassets */; };
-		CD4966351BD94FDE00495993 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4966331BD94FDE00495993 /* LaunchScreen.storyboard */; };
+		CD4B53B51BEF384C00DE2D9D /* arrayBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD4B53B41BEF384C00DE2D9D /* arrayBuilder.swift */; };
+		CD82B8341C4350DB00088652 /* IMG_0041.JPG in Resources */ = {isa = PBXBuildFile; fileRef = CD82B8331C4350DB00088652 /* IMG_0041.JPG */; };
+		CDE3B3071BEF5BDE004D56AB /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDE3B3061BEF5BDE004D56AB /* ViewController3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CD4966271BD94FDE00495993 /* ThingsToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThingsToDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD13B16E1BEF192A0003FAAB /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		CD4966271BD94FDE00495993 /* ThingsToDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ThingsToDo.app; path = "/Users/Code/Desktop/ThingsToDo/build/Debug-iphoneos/ThingsToDo.app"; sourceTree = "<absolute>"; };
 		CD49662A1BD94FDE00495993 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD49662C1BD94FDE00495993 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CD49662F1BD94FDE00495993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CD4966311BD94FDE00495993 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CD4966341BD94FDE00495993 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD4966361BD94FDE00495993 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4B53B41BEF384C00DE2D9D /* arrayBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = arrayBuilder.swift; sourceTree = "<group>"; };
+		CD82B8331C4350DB00088652 /* IMG_0041.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0041.JPG; sourceTree = "<group>"; };
+		CDE3B3061BEF5BDE004D56AB /* ViewController3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,16 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				CD4966291BD94FDE00495993 /* ThingsToDo */,
-				CD4966281BD94FDE00495993 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		CD4966281BD94FDE00495993 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CD4966271BD94FDE00495993 /* ThingsToDo.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		CD4966291BD94FDE00495993 /* ThingsToDo */ = {
@@ -56,10 +53,13 @@
 			children = (
 				CD49662A1BD94FDE00495993 /* AppDelegate.swift */,
 				CD49662C1BD94FDE00495993 /* ViewController.swift */,
+				CD4B53B41BEF384C00DE2D9D /* arrayBuilder.swift */,
+				CD13B16E1BEF192A0003FAAB /* ViewController2.swift */,
+				CDE3B3061BEF5BDE004D56AB /* ViewController3.swift */,
+				CD82B8331C4350DB00088652 /* IMG_0041.JPG */,
 				CD49662E1BD94FDE00495993 /* Main.storyboard */,
-				CD4966311BD94FDE00495993 /* Assets.xcassets */,
-				CD4966331BD94FDE00495993 /* LaunchScreen.storyboard */,
 				CD4966361BD94FDE00495993 /* Info.plist */,
+				CD4966311BD94FDE00495993 /* Assets.xcassets */,
 			);
 			path = ThingsToDo;
 			sourceTree = "<group>";
@@ -108,7 +108,7 @@
 				Base,
 			);
 			mainGroup = CD49661E1BD94FDE00495993;
-			productRefGroup = CD4966281BD94FDE00495993 /* Products */;
+			productRefGroup = CD49661E1BD94FDE00495993;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -122,7 +122,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD4966351BD94FDE00495993 /* LaunchScreen.storyboard in Resources */,
+				CD82B8341C4350DB00088652 /* IMG_0041.JPG in Resources */,
 				CD4966321BD94FDE00495993 /* Assets.xcassets in Resources */,
 				CD4966301BD94FDE00495993 /* Main.storyboard in Resources */,
 			);
@@ -135,8 +135,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CDE3B3071BEF5BDE004D56AB /* ViewController3.swift in Sources */,
 				CD49662D1BD94FDE00495993 /* ViewController.swift in Sources */,
 				CD49662B1BD94FDE00495993 /* AppDelegate.swift in Sources */,
+				CD13B16F1BEF192A0003FAAB /* ViewController2.swift in Sources */,
+				CD4B53B51BEF384C00DE2D9D /* arrayBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,14 +152,6 @@
 				CD49662F1BD94FDE00495993 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CD4966331BD94FDE00495993 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CD4966341BD94FDE00495993 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -247,10 +242,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ThingsToDo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ccorvino.ThingsToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -258,10 +256,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = ThingsToDo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ccorvino.ThingsToDo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -284,6 +285,7 @@
 				CD49663B1BD94FDE00495993 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
